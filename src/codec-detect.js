@@ -322,3 +322,5 @@ var CodecDetect = CodecDetect || (function CodecDetectIIFE() {
   }
 
 })();
+
+module.exports = CodecDetect;
