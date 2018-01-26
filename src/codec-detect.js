@@ -311,11 +311,11 @@ var CodecDetect = CodecDetect || (function CodecDetectIIFE() {
   // utils
   function convertEmptyStringsToFalse(support) {
     // iterate through codecs, set as not supported if is empty string
-    _.forEach(support, setAsFalseIfEmpty);
+    Object.keys(support).forEach(setAsFalseIfEmpty);
 
     // iterator method
-    function setAsFalseIfEmpty(n, key) {
-      if (_.isEmpty(n)) {
+    function setAsFalseIfEmpty(key) {
+      if (support[key] === '') {
         support[key] = false;
       }
     }

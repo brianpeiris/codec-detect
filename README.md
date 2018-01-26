@@ -1,6 +1,6 @@
 # CodecDetect
 
-[![Project Status: Inactive - The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](http://www.repostatus.org/badges/latest/inactive.svg)](http://www.repostatus.org/#inactive) [![Bower version](https://badge.fury.io/bo/codec-detect.svg)](http://badge.fury.io/bo/codec-detect)
+[![Project Status: Inactive - The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](http://www.repostatus.org/badges/latest/inactive.svg)](http://www.repostatus.org/#inactive)
 
 
 ## Overview
@@ -12,13 +12,7 @@ This repository now contains only the sources for the CodecDetect JS library. Th
 
 ## Installation
 
-### Bower installation
-
-From a Terminal window, go to your project directory and run this command*:
-
-    bower install codec-detect --save
-
-\* Requires [Bower](http://bower.io/).
+    npm add codec-detect
 
 ### Manual Download
 
@@ -38,7 +32,7 @@ See the [examples](https://rawgit.com/jansensan/codec-detect/master/examples/exa
 See [Github issues list](https://github.com/jansensan/codec-detect/issues).
 
 
-## Resources 
+## Resources
 
 - [MDN: Media formats supported by the HTML audio and video elements](https://developer.mozilla.org/en-US/docs/Media_formats_supported_by_the_audio_and_video_elements)
 - [HTML5 Audio — The State of Play](http://html5doctor.com/html5-audio-the-state-of-play/)
